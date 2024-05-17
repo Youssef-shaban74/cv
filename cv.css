@@ -1,0 +1,35 @@
+.cv {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: -8px;
+}
+
+.cv .side {
+    background-color: #00675d;
+    color: #fff;
+    padding: 20px 20px 20px 40px;
+}
+
+.cv .main {
+    padding-right: 20px;
+}
+
+.cv .main h3 {
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: #00675d;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+span {
+    color:#00675d;
+}
+
+hr {
+    width: 70%;
+    height: 2px;
+    background-color: black;
+    margin-right: 0;
+    border: none;
+}
